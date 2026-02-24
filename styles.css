@@ -260,22 +260,22 @@ body {
     ul {
       position: fixed;
       display: block;
-      margin-left: 6vw;
-      margin-top: 6vw;
+      margin-left: -200px;
+      margin-top: -6vw;
       z-index: 3;
     }
       
     .nav {
-      position: fixed;
-      display: block;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 0.85vw;
-      transform: rotate(-90deg);
-      margin-left: 6vw;
-      margin-top: 6vw;
-      letter-spacing: 0.2vw;
-      z-index: 3;
-    }
+  position: fixed;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85vw;
+  transform: rotate(-90deg);
+  margin-left: -245px;
+  margin-top: -12vw;
+  letter-spacing: 0.2vw;
+  z-index: 3;
+}
       
     li {
       content:'';
@@ -464,4 +464,5 @@ body {
        filter: drop-shadow(4px 10px 15px #302c2d);
       }
 }
+
 
